@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+</head>
+<style type="text/css">
+    .container{
+    	width: 90%;
+    	margin: auto;
+    }
+	.navPF{
+		display: flex;
+		align-items: center;
+	}
+	.sectionHeaderOne{
+		display: flex;
+		flex-basis: 50%;
+		align-items: center;
+	}
+	.sectionHeaderOne h1{
+		font-size: 50px;
+		color: #2f2f2f;
+	}
+	.sectionHeaderOne img{
+		width: 90px;
+		height: 90px;
+	}
+	.sectionHeaderTwo{
+		flex-basis: 50%;
+	}
+	.sectionHeaderTwo ul{
+		display: flex;
+		list-style: none;
+	}
+	.sectionHeaderTwo a{
+		text-decoration: none;
+	}
+	.sectionHeaderTwo li{
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 25px;
+		color: #2f2f2f;
+	}
+	.slider img{
+		width: 100%
+	}
+	.sectionbody{
+		display: flex;
+		justify-content: space-between;
+	}
+	.articlebody{
+		flex-basis: 46%;
+		background: hsla(45,80%,60%, .8);
+		padding: 16px;
+		margin: 15px  0;
+		color: #2f2f2f;
+	}
+	.articlebody p{
+		font-size: 18px;
+		text-align: justify;
+	}
+	.articlebody a{
+		color: #2f2f2f;
+		text-decoration: none;
+		font-size: 30px;
+		display: block;
+		margin: 10px;
+	}
+	.articlebody span, .articlebody strong{
+		display: block;
+		font-size: 16px;
+		margin: 15px;
+	}
+	.sectionTable{
+		width: 100%;
+		text-align: center;
+		background: #ffcc33;
+		border-collapse: collapse;
+	}
+	.sectionTable td:nth-child(2), .sectionTable td:nth-child(3){
+		border-left: 3px solid #ffffff;
+	}
+	.sectionTheader{
+		color: #ffffff;
+		font-size: 30px;
+	}
+	.sectionTbody{
+		color: #2f2f2f;
+		font-size: 20px;
+	}
+	.sectionIframe{
+		display: flex;
+		justify-content: center;
+	}
+	.sectionIframe iframe{
+		margin: 10px 0;
+	}
+	.sectionList{
+		display: flex;
+		justify-content: space-around;
+	}
+	.listas{
+		flex-basis: 20%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.listas img{
+		width: 50px;
+		height: 50px;
+		flex-direction: column;
+	}
+	.listas ol li, .listas ul li{
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+	}
+	.sectionInf{
+		display: flex;
+		background-image: url(footer.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	.video, .formulario, .audio{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		margin: 60px 0;
+		flex-basis: calc(100%/3);
+	}
+	.video video{
+		width: 70%;
+	}
+	.formgroup{
+		border: 1px solid #eee;
+		background: #ffffff;
+		padding: 5px;
+		margin: 20px 0
+	}
+	.formgroup input, .formgroup textarea{
+		border: none;
+	}
+	.formgroup input:focus, .formgroup textarea:focus{
+		outline: 0;
+	}
+	.formgroup textarea{
+		min-height: 120px;
+		max-height: 120px;
+		min-width: 454px;
+		max-width: 454px;
+	}
+	form{
+		background: #60859f;
+		padding: 20px;
+		height: 100%;
+	}
+	button{
+		width: 100%;
+		border: 2px solid #ffffff;
+		color: #ffffff;
+		background: #3598db;
+		padding: 10px;
+		font-size: 20px;
+	}
+	.footer{
+		display: flex;
+		height: 50px;
+		background: #2f2f2f;
+	}
+	.sectionFooter{
+		font-size: 20px;
+		text-align: center;
+		color: #ffcc33;
+		margin: auto;
+	}
+</style>
+<body>
+	<div class="container">
+		<header>
+		<nav class="navPF">
+			<div class="sectionHeaderOne">
+				<img src="logo.png">
+				<h1>WebDesign</h1>
+			</div>
+			<div class="sectionHeaderTwo">
+				<ul>
+					<a href="https://www.youtube.com/channel/UCauB32kEg5g1wVqBCfMNBqg?view_as=subscriber"><li>Youtube</li></a>
+					<a href="https://www.facebook.com/WebDesign-183451382226100/"><li>Facebook</li></a>
+					<a href="https://twitter.com/Web__Desing"><li>Twitter</li></a>
+				</ul>
+			</div>
+		</nav>
+		<div class="slider">
+			<img src="slider.jpg">
+		</div>
+		</header>
+		<section class="sectionbody">
+		<article class="articlebody">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque laborum nihil adipisci quibusdam illo, asperiores labore qui natus sapiente, totam saepe vitae, ut consequuntur pariatur nemo nisi ex iste similique. Cumque dicta nam veniam in! Porro aliquid, molestiae ipsam voluptate, officia alias deleniti illum nam maiores unde reprehenderit odit doloremque animi consequatur aut. Iure, quia necessitatibus corporis iusto facere placeat nemo eaque dolor reiciendis. Alias, numquam animi delectus facilis error!
+			</p>
+		</article>
+		<article class="articlebody">
+			<a href="">WebDesign</a>
+			<span>Canal de youtube creado con el fin de enseñar y guiar la programación y diseño web</span>
+			<strong>Creado el 07/10/2017 - Colombia</strong>
+		</article>
+		</section>
+		<table class="sectionTable">
+		<thead class="sectionTheader">
+			<tr>
+				<td>Curos</td>
+				<td>Fecha Inicio</td>
+				<td>Fecha Fin</td>
+			</tr>
+		</thead>
+		<tbody class="sectionTbody">
+			<tr>
+				<td>HTML Básico</td>
+				<td>16/10/2017</td>
+				<td>24/11/2017</td>
+			</tr>
+			<tr>
+				<td>CSS Básico</td>
+				<td>16/10/2017</td>
+				<td>24/11/2017</td>
+			</tr>
+			<tr>
+				<td>GitHub</td>
+				<td>08/12/2017</td>
+				<td>24/12/2017</td>
+			</tr>
+			<tr>
+				<td>Jquery</td>
+				<td>08/02/2017</td>
+				<td>04/04/2017</td>
+			</tr>
+		</tbody>	
+		</table>
+		<section class="sectionIframe">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWebDesign-183451382226100%2F&tabs=evento&width=500&height=100&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="500" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+		</section>
+		<section class="sectionList">
+			<div class="listas">
+				<img src="img.png">
+				<ol>
+					<li>Colombia</li>
+					<li>Brasil</li>
+					<li>Italia</li>
+					<li>Mexico</li>
+					<li>Perú</li>
+				</ol>
+			</div>
+			<div class="listas">
+				<img src="img.png">
+				<ul>
+					<li>Boógota</li>
+					<li>Brasilia</li>
+					<li>Milan</li>
+					<li>Ciudad de Mexico</li>
+					<li>Lima</li>
+				</ul>
+			</div>
+			<div class="listas">
+				<img src="img.png">
+				<ul>
+					<li>50 Millones</li>
+					<li>70 Millones</li>
+					<li>65 Millones</li>
+					<li>55 Millones</li>
+					<li>42 Millones</li>
+				</ul>
+			</div>
+		</section>
+		<section class="sectionInf">
+			<div class="video">
+				<video src="video.mp4" type="audio/mpeg" controls></video>
+				<video src="video.mp4" type="audio/mpeg" controls></video>
+			</div>
+			<div class="formulario">
+				<form>
+					<div class="formgroup">
+						<span><img src="usuario.png"></span>
+						<input type="text" placeholder="Nombre">
+					</div>
+					<div class="formgroup">
+						<span><img src="email.png"></span>
+						<input type="email" placeholder="Correo">
+					</div>
+					<div class="formgroup">
+						<span><img src="mensaje.png"></span>
+						<textarea placeholder="Escribe el mensaje"></textarea>
+					</div>
+					<div>
+						<button>Enviar</button>
+					</div>
+				</form>
+			</div>
+			<div class="audio">
+				<audio controls >
+					<source src="The_Nights.mp3" type="audio/mpeg">
+				</audio>
+				<audio controls >
+					<source src="The_Nights.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="sectionFooter">
+				<span>Copyright 2017-2017 WebDesign</span>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
